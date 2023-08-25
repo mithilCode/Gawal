@@ -1,0 +1,10 @@
+.loader_section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-color: rgba(0, 0, 0, 0.6196078431);
+    position: absolute;
+    z-index: 9999999;
+}

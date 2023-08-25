@@ -1,0 +1,30 @@
+.footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #fff;
+    padding: 5px 10px;
+    position: fixed;
+    width: calc(100% - 250px);
+    margin-left: 250px;
+    text-align: center;
+    font-size: 15px;
+}
+.collespe{
+    margin-left: 50px;
+    width: calc(100% - 50px);
+}
+@media (max-width: 1399.98px) {  }
+
+@media (max-width: 1199.98px) {  }
+
+@media (max-width: 991.98px) {  }
+
+@media (max-width: 767.98px) { 
+    .footer{
+        margin-left: 0;
+        width: 100%;
+    }
+ }
+@media (max-width: 575.98px) {
+ }

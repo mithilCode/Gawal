@@ -1,0 +1,58 @@
+@import "../../Assets/Styles/Styles.scss";
+.header {
+  background-color: #fff;
+  padding: 8px 10px;
+  position: fixed;
+  width: calc(100% - 250px);
+  margin-left: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+  .menu_icon {
+    color: $primary_color;
+    font-size: 25px;
+  }
+  .logout_btn {
+    background: $secondry_color;
+    padding: 10px 0;
+    max-width: 100px;
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 2px solid $oranged;
+    &:hover {
+      background: #fff;
+      color: $oranged;
+    }
+  }
+}
+.collespe {
+  margin-left: 50px;
+  width: calc(100% - 50px);
+}
+
+@media (max-width: 1399.98px) {
+}
+
+@media (max-width: 1199.98px) {
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 767.98px) {
+  .header {
+    width: 100%;
+    margin-left: 0;
+  }
+  .collespe {
+    margin-left: 200px;
+    width: calc(100% - 20px);
+  }
+}
+
+@media (max-width: 575.98px) {
+}

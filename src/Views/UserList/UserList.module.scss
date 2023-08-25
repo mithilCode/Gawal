@@ -1,0 +1,46 @@
+@import "../../Assets/Styles/Styles.scss";
+.display_set {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  select {
+    padding: 8px 5px;
+    font-size: 15px;
+    border-radius: 6px;
+    background-color: $primary_color;
+    color: $yellow;
+    font-weight: 700;
+    max-width: 120px;
+    width: 100%;
+  }
+}
+.action_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    button{
+        width: 35px;
+        margin: 0 5px;
+        border-radius: 4px;
+        padding: 5px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        border: none;
+        color: #fff;
+        font-weight: 700;
+    }
+  .delete_btn {
+    background:red;
+  }
+  .update_btn{
+    background:$primary_color;
+  }
+}
+.update_data{
+    padding: 20px 0;
+}
